@@ -1,0 +1,679 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685569735337811, "dur":994, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569735338811, "dur":93, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685569735338938, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685569735338957, "dur":449, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685569735339444, "dur":661, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569735340105, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319472, "dur":213, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319686, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319734, "dur":84, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319818, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319825, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319826, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319829, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319830, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319834, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319835, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319838, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319839, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319843, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319844, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319858, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319859, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319862, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319863, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319867, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319868, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319871, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319871, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319875, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319876, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319880, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319891, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736319916, "dur":1871, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685569735340187, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735340188, "dur":4621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735344811, "dur":1874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685569735346700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735346712, "dur":6859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685569735353631, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685569735353736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735353743, "dur":89967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685569735443749, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735443846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735443851, "dur":43149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735487043, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735487239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735487248, "dur":19781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735507067, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735507382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735507390, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735509608, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735509644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735509672, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735512505, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735512547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735512554, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735513867, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735513904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735513911, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735515889, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735515922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735515927, "dur":18326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735534292, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735534340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735534348, "dur":27652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735562044, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735562096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735562107, "dur":23140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735585300, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735585419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735585425, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735588060, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735588178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735588186, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735591477, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735591589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735591593, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735594967, "dur":861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735595831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735595837, "dur":4991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735600865, "dur":1634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735602504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735602512, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735603924, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735603966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735603971, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735608697, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735608735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735608743, "dur":33192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735642026, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735642084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735642090, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735644123, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/ReadyPlayerMe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735644314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735644319, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/ReadyPlayerMe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685569735650571, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685569735650661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735650667, "dur":7229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685569735657944, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685569735657983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685569735657992, "dur":513933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685569736171955, "dur":147521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735339802, "dur":309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735340113, "dur":4665, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735344804, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685569735344825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735346154, "dur":212, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685569735346369, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685569735346402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735346591, "dur":5649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685569735352244, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685569735352382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735352707, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685569735354298, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685569735354401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735354407, "dur":89317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685569735443770, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685569735443870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735443874, "dur":13555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685569735457497, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735457628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735457638, "dur":47448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735505137, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735505177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735505185, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735506970, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735507013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735507021, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735509365, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735509411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735509419, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735512583, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735512625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735512630, "dur":20810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735533475, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735533515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735533557, "dur":33361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735566948, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735566982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735566987, "dur":19891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735586919, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735586964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735586990, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735590695, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735590912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735590917, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735593093, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735593225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735593230, "dur":11317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735604589, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735604632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735604638, "dur":7719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735612394, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735612434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735612439, "dur":31258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735643740, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735643789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735643795, "dur":5110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685569735648946, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":2, "ts":1685569735648992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735651450, "dur":15994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":2, "ts":1685569735667489, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685569735667545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735667558, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685569735669978, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685569735670031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735670121, "dur":3602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685569735673781, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685569735673827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735673837, "dur":30960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685569735704870, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685569735704925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735704939, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685569735706504, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1685569735706678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685569735706715, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1685569735707907, "dur":611570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735339873, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735340116, "dur":4688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735344804, "dur":1386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685569735346193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735346454, "dur":7151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685569735353645, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685569735353743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735353750, "dur":216794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685569735570590, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735570632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735570637, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735572946, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735573239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735573248, "dur":52545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735625836, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735625875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735625883, "dur":17874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735643796, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Siccity.GLTFUtility.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735644024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735644029, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Siccity.GLTFUtility.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735648368, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735648446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735651351, "dur":35847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685569735687341, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685569735687595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735687605, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685569735689651, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685569735689687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735689695, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685569735693579, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685569735693619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735693628, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685569735697766, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1685569735697807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735697811, "dur":4812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1685569735702669, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685569735702729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685569735702740, "dur":4023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685569735706807, "dur":612665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735339978, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735340120, "dur":4698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735344820, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685569735345017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735350727, "dur":93136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685569735443902, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/WebView.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735444346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735445019, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/WebView.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735446005, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735446149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735446154, "dur":8449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735454648, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735454750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735454759, "dur":45567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735500368, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735500526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735500536, "dur":20691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735521263, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735521305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735521313, "dur":18315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735539660, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735539708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735539713, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735541679, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735541720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735541726, "dur":22844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735564601, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735564635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735564642, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735566616, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735566652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735566660, "dur":39598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735606297, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735606337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735606345, "dur":42871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685569735649254, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685569735649290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735650110, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685569735653559, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685569735653604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735653610, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685569735657398, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685569735657442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735657453, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685569735661000, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685569735661047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735661061, "dur":5893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685569735667001, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685569735667049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735667059, "dur":20636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685569735687736, "dur":12413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1685569735700158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735700168, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1685569735701239, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685569735701286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685569735701289, "dur":6940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685569735708267, "dur":611214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735340092, "dur":33, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735340125, "dur":4681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735344807, "dur":1707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685569735346516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735346569, "dur":6124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685569735352749, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685569735352868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735352920, "dur":90917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685569735443879, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1685569735443969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735444491, "dur":18602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1685569735463155, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735463325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735463338, "dur":29172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735492547, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735492659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735492668, "dur":21461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735514167, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735514213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735514218, "dur":29813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735544069, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735544171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735544179, "dur":35273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735579490, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735579704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735579714, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735582899, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735583085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735583092, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735585527, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735585685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735585691, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735588674, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735588843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735588849, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735591354, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735591489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735591494, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735594349, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735594479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735594487, "dur":4735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735599258, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735599361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735599370, "dur":95832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685569735695243, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1685569735695286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735695290, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1685569735698114, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685569735698170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735698175, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685569735701081, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685569735701126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685569735701132, "dur":6705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685569735707901, "dur":611573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735340118, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735340118, "dur":4721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735344840, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685569735345018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735356062, "dur":223953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685569735580061, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735580176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735580181, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735584685, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735584808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735584815, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735587094, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735587381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735587387, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735589089, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735589233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735589238, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735591876, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735591985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735591990, "dur":4528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735596555, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735596595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735596601, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735600689, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735600795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685569735600803, "dur":143683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685569735744535, "dur":574938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735340148, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735340148, "dur":4668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735344817, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685569735345007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735346257, "dur":6647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685569735352943, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1685569735353029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735353035, "dur":90735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1685569735443812, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys.exe" }}
+,{ "pid":12345, "tid":7, "ts":1685569735443855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735443859, "dur":51913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys.exe" }}
+,{ "pid":12345, "tid":7, "ts":1685569735495816, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735495920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735495929, "dur":19779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735515744, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735515779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735515786, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735516784, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735516914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735516921, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735517912, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735517958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735517964, "dur":21536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735539592, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735539630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735539637, "dur":20939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735560611, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735560651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735560660, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735563374, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735563414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735563422, "dur":21974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735585430, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735585848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735585854, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735589621, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735589780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735589785, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735593042, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735593175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735593183, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735597278, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735597695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735597732, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735601562, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735601602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735601609, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735602526, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735602630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735602634, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735603920, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735603963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735603972, "dur":3284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735607295, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735607334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735607339, "dur":29968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735637633, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735637684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735637692, "dur":8135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735645866, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735645906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735645910, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685569735649178, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1685569735649336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735651277, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1685569735653532, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685569735653583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735653592, "dur":18489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685569735672138, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685569735672194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685569735672213, "dur":647183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685569736319443, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1685569736319446, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735340160, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735340160, "dur":4661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735344822, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685569735345017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735355677, "dur":87194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685569735442919, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735443068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735443317, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735446269, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735446318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735446323, "dur":8416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735454770, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735454842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735454848, "dur":42674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735497560, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735497599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735497607, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735500367, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735500546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735500551, "dur":82962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735583558, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735583715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735583722, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735586126, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735586641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735586650, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735590732, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735590862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735590870, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735593172, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735593287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735593294, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735597281, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735597390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685569735597396, "dur":143393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685569735740836, "dur":578651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735340202, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735340202, "dur":4611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735344815, "dur":1529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1685569735346346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735346480, "dur":223893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1685569735570420, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735570466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735570475, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735571950, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735571990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735571997, "dur":9591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735581626, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735581771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735581779, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735585698, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735585859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735585864, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735588572, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735588742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735588748, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735591321, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735591443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735591448, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735594290, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735594683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735594688, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735600841, "dur":1201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735602134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685569735602140, "dur":224627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685569735826808, "dur":492661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735340217, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735340217, "dur":4568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735344809, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1685569735345012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735350546, "dur":7075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1685569735442651, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1685569735442795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735442805, "dur":23689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1685569735466552, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735466724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735466736, "dur":38414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735505193, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735505238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735505243, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735508026, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735508067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735508075, "dur":21492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735529605, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735529643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735529651, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735530541, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735530580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735530587, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735532384, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735532491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735532498, "dur":20571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735553118, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735553157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735553187, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735553979, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735554016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735554022, "dur":28085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735582197, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735582336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735582343, "dur":3848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735586231, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735586863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735586870, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735589814, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735590101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735590106, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735593062, "dur":2263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735595330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735595337, "dur":11794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735607172, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735607211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735607219, "dur":37471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735644729, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735644773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735644778, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735648366, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735648429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685569735651241, "dur":71383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685569735722679, "dur":596789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735340233, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735340233, "dur":4548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735344805, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1685569735345010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735346157, "dur":98770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1685569735444988, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735445044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735445144, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735446038, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735446129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735446136, "dur":36880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735483056, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735483173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735483183, "dur":27662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735510886, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735510921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735510928, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735513238, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735513279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735513285, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735514756, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735514789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735514794, "dur":18400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735533234, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735533280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735533289, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735535299, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735535340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735535348, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735536821, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735536863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735536872, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735539090, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735539131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735539137, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735541508, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735541542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735541548, "dur":104142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735645730, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735645780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735645787, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735647274, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735647507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735647518, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685569735648971, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1685569735649019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735651556, "dur":43441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1685569735695042, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1685569735695107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735695119, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1685569735697560, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1685569735697611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735697625, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1685569735700536, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1685569735700576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735700581, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1685569735702679, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1685569735702731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685569735702740, "dur":8818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1685569735711608, "dur":607870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735340273, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735340273, "dur":4563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735344838, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1685569735345089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735356394, "dur":87208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1685569735443645, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735443884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735443937, "dur":27582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735471565, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735471618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735471630, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735473946, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735473992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735474001, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735475120, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735475235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735475243, "dur":22836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735498115, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735498219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735498226, "dur":19182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735517443, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735517481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735517487, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735518670, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735518716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735518722, "dur":18086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735536851, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735536894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735536898, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735539048, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735539094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735539102, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735541090, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735541127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735541135, "dur":22590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735563760, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735563799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735563806, "dur":24088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735587935, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735588318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735588324, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735590852, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735591093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735591098, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735594398, "dur":3064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735597465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735597471, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735601744, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735601786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735601790, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735604669, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735604705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735604711, "dur":7442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735612196, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735612241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735612248, "dur":29367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735641662, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735641705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735641714, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735643735, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735643778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735643787, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735646087, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735646121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735646126, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735647392, "dur":82459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735729862, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685569735730018, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Melaa/Build/VR Game - Milena Kierys_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685569735731721, "dur":587758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685569736322882, "dur":1699, "ph":"X", "name": "ProfilerWriteOutput" }
+,
