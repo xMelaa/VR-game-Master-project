@@ -1,2 +1,3 @@
-[<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/JmYURT7A#JbLupz0jJolguwwG5Foum0PbB_-8JscdjUmXI6oAyNc" allowfullscreen ></iframe>
-](https://mega.nz/file/JmYURT7A#JbLupz0jJolguwwG5Foum0PbB_-8JscdjUmXI6oAyNc)https://mega.nz/file/JmYURT7A#JbLupz0jJolguwwG5Foum0PbB_-8JscdjUmXI6oAyNc
+Video presentation: https://mega.nz/file/JmYURT7A#JbLupz0jJolguwwG5Foum0PbB_-8JscdjUmXI6oAyNc
+
+in a few days will be more info about this project
