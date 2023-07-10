@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/_Scenes/SampleSceneDrawing.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_Scenes/Lobby.unity
+    guid: db4f2c1daa2984c42878860f01028e89
+  - enabled: 1
+    path: Assets/_Scenes/1-Parkour.unity
+    guid: 6b96f124c0f9c61498d0208b9e3e0f7a
+  - enabled: 1
+    path: Assets/_Scenes/2-Shooter.unity
+    guid: d24c33f53460a7c46873f36f09a63e47
+  - enabled: 1
+    path: Assets/_Scenes/3-BeatSaber.unity
+    guid: a5e1c92cf3f64b242a0637ae7482ed7d
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a433a2645c4bb984fbabcb816dccbee4,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 82a397e6629af5e45843902fb476a1b2,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6a99dda8c83f78b498b10f1b3af8d20b,
+      type: 2}
